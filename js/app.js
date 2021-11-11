@@ -18,7 +18,7 @@
 
   // We have to create a new todo document and enter it in the database
   function addTodo(text) {
-    if(text.length==0) return
+    if(text.length ==0) return
     var todo = {
       _id: new Date().toISOString(),
       title: text,

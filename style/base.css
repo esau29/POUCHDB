@@ -2,6 +2,13 @@ html,
 body {
   margin: 0;
   padding: 0;
+
+  overscroll-behavior-y:contain;
+  user-select:none;
+  -webkit-tap-highlight-color:transparent;
+  -webkit-touch-callout:none;
+
+
 }
 
 button {
